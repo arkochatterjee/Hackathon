@@ -32,10 +32,16 @@ import android.util.Log;
 import android.view.View;
 
 import com.example.android.todolist.data.TaskContract;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 
 public class MainActivity extends AppCompatActivity implements
         LoaderManager.LoaderCallbacks<Cursor> {
+
+    //Firebase Database
+    private FirebaseDatabase mFirebaseDatabase;
+    private DatabaseReference mMessagesDatabaseReference;
 
 
     // Constants for logging and referring to a unique loader

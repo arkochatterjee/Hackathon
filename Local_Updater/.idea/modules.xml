@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Local_Updater.iml" filepath="$PROJECT_DIR$/Local_Updater.iml" />
+      <module fileurl="file://F:\KWOC 17-18\Local_Updater\Local_Updater.iml" filepath="F:\KWOC 17-18\Local_Updater\Local_Updater.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://F:\KWOC 17-18\Local_Updater\app\app.iml" filepath="F:\KWOC 17-18\Local_Updater\app\app.iml" />
     </modules>
   </component>
 </project>
